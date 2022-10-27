@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "run": "cypress run",
+    "open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.10.0"
+    "cypress": "^10.10.0",
+    "faker": "^5.5.3"
   }
 }
