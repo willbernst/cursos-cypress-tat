@@ -6,14 +6,15 @@
   "scripts": {
     "lint": "npx standard",
     "lint:fix": "npx standard --fix",
-    "run": "cypress run",
-    "open": "cypress open"
+    "cy:run": "cypress run --reporter nyan",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.10.0",
+    "cypress-localstorage-commands": "^2.2.1",
     "faker": "^5.5.3"
   }
 }

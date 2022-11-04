@@ -8,6 +8,9 @@ Projeto desenvolvido junto ao curso de Cypress(Avançado) da escola TAT com intu
 - Implementação de testes 100% flakiness-free.
 - Interceptar requisições/respostas da API para utiliza-las nos testes.
 - Mockar dados, simulando comunicação com a API.
+- Garantir a robustez de um teste de GUI.
+- Ler o localstorage do navegador.
+- Simular atrasos nas chamadas da API.
 ---
 ### **Pré Requisitos**:
 Para executar o projeto de testes em seu computador, é necessário ter instalado: 
